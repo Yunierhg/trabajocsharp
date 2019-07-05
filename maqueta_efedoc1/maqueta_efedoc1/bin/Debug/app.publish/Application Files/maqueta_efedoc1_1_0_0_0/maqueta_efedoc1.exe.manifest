@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="maqueta_efedoc1.exe" version="1.0.0.0" publicKeyToken="fa01c6d9b4785efa" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="maqueta_efedoc1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="maqueta_efedoc1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="De.TorstenMandelkow.MetroChart.dll" size="94720">
+      <assemblyIdentity name="De.TorstenMandelkow.MetroChart" version="0.9.5818.20693" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mcQ2cPlOkypniBwrnDbNXazy9xUQTB7ob6EZwOci4Z8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="maqueta_efedoc1.exe" size="753632">
+      <assemblyIdentity name="maqueta_efedoc1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1JbEg/OxEE1s0lqkzsdbaMl0jXZTqDxL5XAK1woMxok=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignColors.dll" size="224256">
+      <assemblyIdentity name="MaterialDesignColors" version="1.1.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>d4wZkVSpfjUBqYKDtRfNT80gSBwKfOiY66XUQlfkFX0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignThemes.Wpf.dll" size="5553664">
+      <assemblyIdentity name="MaterialDesignThemes.Wpf" version="2.5.1.1345" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NiWdd89+nc/VAtW+Wx3RsClBQBLysHtrOkLs7iPXeoo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logo.ico" size="163742">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M0zt9pRAdFZyZW36YRYlwnGvS2Shlta/fV+5BcEYRe4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="maqueta_efedoc1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-GMGVJ1U\sanch" issuerKeyHash="792a93b25bcb40293083d4d5cf03ad530fb6acc7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Iurz5OOxQSciATneOLjhC3kAIp9+7gws+w+dKJIMFXQ=</DigestValue></Reference></SignedInfo><SignatureValue>YzxAJZbuwjtZT84uCP0EUu9R9MP0DBhAfdfHwZJIuoooIzoHnN4Se1VtiUCfZeklmhZec8wUiD1RKQpBGKvn1PvaDB1TxkcO8zdkhU0EVMVcVMLg1yPb/XR8R3WIOf8SshhQ5HTlCBrKFdTyjqoyN8pGDzBc/U6CYEMCbn9XLe8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oYflUbgx0AKvam6NfPm7x7dRHDVh57ow651UeMO7FLA65iopnKtG6+UXmM+ey0KNyk5cbmS5rWm+I5pDF6EOyvaVtGjnLGb7rsvrm+icyDRfwtAGAV6en34SAM3Tr18Rfslj+9rXgrGRVzxLl4S2wH9PErrqTd+KG4zv+uMjXUE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="74150c92289d0ffb2c0cee7e9f2200790be1b838de3901222741b1e3e4f3ea22" Description="" Url=""><as:assemblyIdentity name="maqueta_efedoc1.exe" version="1.0.0.0" publicKeyToken="fa01c6d9b4785efa" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GMGVJ1U\sanch</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vs4Xg9EfBj6kUBlHyM5otj3dAn5scIwM6YK5zEba05k=</DigestValue></Reference></SignedInfo><SignatureValue>a2YdZls6cJT4SHk2vfADI/F09UC0HDjhldRbEjG11hj0Fs8HybTNW2qdFknnhk2RKa9p1CyVDjAbroX39hBlLa59ykSVvoe+5R/Ad9E2j4R7DLDBL7ReoWHopZ/oz+uW1nzPWDOs30BoJoCJcMQk/+gOOVuRAaw8RP/QnBt1tzQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oYflUbgx0AKvam6NfPm7x7dRHDVh57ow651UeMO7FLA65iopnKtG6+UXmM+ey0KNyk5cbmS5rWm+I5pDF6EOyvaVtGjnLGb7rsvrm+icyDRfwtAGAV6en34SAM3Tr18Rfslj+9rXgrGRVzxLl4S2wH9PErrqTd+KG4zv+uMjXUE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKNNAUtsQv4dEVciHQU/BiDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcATQBHAFYASgAxAFUAXABzAGEAbgBjAGgwHhcNMTkwNjE5MTIxNTI5WhcNMjAwNjE4MTgxNTI5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcATQBHAFYASgAxAFUAXABzAGEAbgBjAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKGH5VG4MdACr2pujXz5u8e3URw1Yee6MOudVHjDuxSwOuYqKZyrRuvlF5jPnstCjcpOXG5kua1pviOaQxehDsr2lbRo5yxm+67L65vonMg0X8LQBgFenp9+EgDN069fEX7JY/va14KxkVc8S5eEtsB/TxK66k3fihuM7/rjI11BAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAmy4KyBOD0xaeCcr/FYiQzi9shwWV7XEec1e1enX4OiQLpvjP2j/j+wBXgnZ3LTq4+DIMetFCcmJaCepkcedR4qQ2sn7QN7TsYqXd0vgbxhlli4BjOdDHgMJA+DFQUXnx+AwVIvV/dJxH//49D4wVsnL3FlkKAStl44Ayy2eMf+A=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

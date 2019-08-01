@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="panel">
+
+    <form id="form" method="post">
+        <div class="form-group">
+            <label for="json_inicial">JSON</label>
+            <textarea id="json_inicial"></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">FIRMAR</button>
+        </div>
+
+
+    </form>
+
+    <div>
+        <h2>Resultado de carga de vista</h2>
+        <div>@ViewData["Nombre"]</div>
+    </div>
+
+    <div id="resultado" class="form-group">
+    </div>
+
+</div>
